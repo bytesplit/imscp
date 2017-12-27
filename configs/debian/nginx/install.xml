@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+    <folder mode="0755" export="ROOT_NGINX_CONF">${ROOT_CONF}/nginx</folder>
+    <folder>${ROOT_NGINX_CONF}/imscp</folder>
+    <folder>${ROOT_APACHE_CONF}/imscp/before</folder>
+    <folder>${SYSTEM_CONF}/nginx</folder>
+    <copy_config>${SYSTEM_CONF}/nginx/apache.data.dist</copy_config>
+    <copy_config>${SYSTEM_CONF}/nginx/logrotate.conf</copy_config>
+</install>

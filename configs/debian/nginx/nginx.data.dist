@@ -1,0 +1,16 @@
+HTTPD_VERSION =
+HTTPD_USER = www-data
+HTTPD_GROUP = www-data
+HTTPD_SNAME = nginx
+HTTPD_CONF_DIR = /etc/nginx
+HTTPD_MODS_AVAILABLE_DIR = /etc/nginx/mods-available
+HTTPD_MODS_ENABLED_DIR = /etc/nginx/mods-enabled
+HTTPD_SITES_AVAILABLE_DIR = /etc/nginx/sites-available
+HTTPD_SITES_ENABLED_DIR = /etc/nginx/sites-enabled
+HTTPD_CUSTOM_SITES_DIR = /etc/nginx/imscp
+HTTPD_ROOT_DIR = /var/www
+HTTPD_LOG_DIR = /var/log/nginx
+
+# Whether or not bind mount logs in customer logs directory
+# Allowed value: yes|no
+MOUNT_CUSTOMER_LOGS = yes
